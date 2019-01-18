@@ -13,7 +13,7 @@
 		example:
 		</li>
 		<code>
-			<script>
+			
 				    
 				    // here we set the center of the map.
 				    var map = L.map('map').setView([35.092, 36.078], 7);
@@ -41,7 +41,7 @@
 				    L.marker([35.537489, 35.8298193], { icon: redIcon }).bindPopup("Second Loc").addTo(map);
 				    // third location.
 				    L.marker([33.511745, 36.1934849], { icon: orangeIcon }).bindPopup("third Loc").addTo(map);
-  			  </script>
+  			  
 		</code>
 	</ol>
 </p>
