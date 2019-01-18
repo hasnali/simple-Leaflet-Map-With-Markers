@@ -10,13 +10,12 @@
     <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js" integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg==" crossorigin=""></script>
 		</p>
 		<li>
-			example:
+		example:
 		</li>
-		<p>
+		<code>
 			<script>
 				    // here we set the center of the map.
 				    var map = L.map('map').setView([35.092, 36.078], 7);
-
 				    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 				        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 				    }).addTo(map);
@@ -41,7 +40,7 @@
 				    L.marker([35.537489, 35.8298193], { icon: redIcon }).bindPopup("Second Loc").addTo(map);
 				    // third location.
 				    L.marker([33.511745, 36.1934849], { icon: orangeIcon }).bindPopup("third Loc").addTo(map);
-    </script>
-		</p>
+  			  </script>
+		</code>
 	</ol>
 </p>
