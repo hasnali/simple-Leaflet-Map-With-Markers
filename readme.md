@@ -13,35 +13,35 @@
 			example:
 		</li>
 		<p>
-			 <!-- <script> -->
-    // here we set the center of the map.
-    var map = L.map('map').setView([35.092, 36.078], 7);
+			<script>
+				    // here we set the center of the map.
+				    var map = L.map('map').setView([35.092, 36.078], 7);
 
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-    }).addTo(map);
+				    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+				        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+				    }).addTo(map);
 
-    var LeafIcon = L.Icon.extend({
-        options: {
-            shadowUrl: 'leaf-shadow.png',
-            iconSize: [38, 95],
-            shadowSize: [50, 64],
-            iconAnchor: [22, 94],
-            shadowAnchor: [4, 62],
-            popupAnchor: [-3, -76]
-        }
-    });
-    // here we set the icons we can change them with other images.
-    var greenIcon = new LeafIcon({ iconUrl: 'leaf-green.png' }),
-        redIcon = new LeafIcon({ iconUrl: 'leaf-red.png' }),
-        orangeIcon = new LeafIcon({ iconUrl: 'leaf-orange.png' });
-    // first location.
-    L.marker([35.092619, 36.0781583], { icon: greenIcon }).bindPopup("First Loc").addTo(map);
-    // second location.
-    L.marker([35.537489, 35.8298193], { icon: redIcon }).bindPopup("Second Loc").addTo(map);
-    // third location.
-    L.marker([33.511745, 36.1934849], { icon: orangeIcon }).bindPopup("third Loc").addTo(map);
-    <!-- </script> -->
+				    var LeafIcon = L.Icon.extend({
+				        options: {
+				            shadowUrl: 'leaf-shadow.png',
+				            iconSize: [38, 95],
+				            shadowSize: [50, 64],
+				            iconAnchor: [22, 94],
+				            shadowAnchor: [4, 62],
+				            popupAnchor: [-3, -76]
+				        }
+				    });
+				    // here we set the icons we can change them with other images.
+				    var greenIcon = new LeafIcon({ iconUrl: 'leaf-green.png' }),
+				        redIcon = new LeafIcon({ iconUrl: 'leaf-red.png' }),
+				        orangeIcon = new LeafIcon({ iconUrl: 'leaf-orange.png' });
+				    // first location.
+				    L.marker([35.092619, 36.0781583], { icon: greenIcon }).bindPopup("First Loc").addTo(map);
+				    // second location.
+				    L.marker([35.537489, 35.8298193], { icon: redIcon }).bindPopup("Second Loc").addTo(map);
+				    // third location.
+				    L.marker([33.511745, 36.1934849], { icon: orangeIcon }).bindPopup("third Loc").addTo(map);
+    </script>
 		</p>
 	</ol>
 </p>
