@@ -14,6 +14,7 @@
 		</li>
 		<code>
 			<script>
+				    
 				    // here we set the center of the map.
 				    var map = L.map('map').setView([35.092, 36.078], 7);
 				    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
